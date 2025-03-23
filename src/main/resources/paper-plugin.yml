@@ -1,10 +1,16 @@
-name: REPLACE_ME
+name: EXP-WorldGuard
 version: ${version}
-main: co.killionrevival.REPLACE_ME.Plugin
+main: co.killionrevival.expworldguard.ExpWorldGuard
 api-version: ${mcVersion}
-description: SOME PLUGIN
+description: A plugin that add a WorldGuard tag for only letting players in an area if they have a certain EXP level.
 dependencies:
   server:
     KillionCommons:
       load: BEFORE
-authors: [tut, flyerzrule, Fross]
+    WorldGuard:
+      load: BEFORE
+authors: [flyerzrule] 
+permissions:
+  expworldguard.bypass:
+    description: Bypasses the EXP requirement.
+    default: op
