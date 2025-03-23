@@ -2,9 +2,6 @@ package co.killionrevival.expworldguard;
 
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.incendo.cloud.annotations.AnnotationParser;
-import org.incendo.cloud.paper.PaperCommandManager;
-import org.incendo.cloud.paper.util.sender.Source;
 
 import co.killionrevival.expworldguard.handlers.ReqExpHandler;
 import co.killionrevival.killioncommons.KillionUtilities;
@@ -27,10 +24,6 @@ public class ExpWorldGuard extends JavaPlugin {
     private static KillionUtilities killionUtilities;
     @Getter
     private static ConsoleUtil myLogger;
-    @Getter
-    private static PaperCommandManager<Source> commandManager;
-    @Getter
-    private static AnnotationParser<Source> annotationParser;
 
     @Getter
     private static IntegerFlag reqExpLvlFlag;
