@@ -36,7 +36,7 @@ repositories {
 
 dependencies {
     compileOnly "io.papermc.paper:paper-api:${paperVersion}"
-    compileOnly "co.killionrevival:killioncommons:3.3.2-SNAPSHOT"
+    compileOnly "co.killionrevival:killioncommons:4.1.1-SNAPSHOT"
 
     compileOnly "com.sk89q.worldguard:worldguard-bukkit:7.0.13"
 
